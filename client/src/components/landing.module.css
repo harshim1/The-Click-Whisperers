@@ -1,7 +1,7 @@
-section {
+.container {
     flex-direction: column;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     height: 100vh;
 }
@@ -44,6 +44,7 @@ button {
 }
 button:hover {
     cursor: pointer;
+    background-color: #c7af59;
 }
 
 h1 {
@@ -52,6 +53,6 @@ h1 {
     margin-bottom: 0%;
 }
 
-p{
-    font-size: x-large;
+.description {
+    font-size: 32px;
 }
